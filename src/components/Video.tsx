@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import introVid from "../assets/intro-vid.mp4";
+import poster from "../assets/poster.jpg";
 
 const Video: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const Video: React.FC = () => {
                 controls
                 className="embed-responsive-item"
                 style={{ maxWidth: "100%" }}
+                poster={poster}
               />
             </div>
           </Col>
