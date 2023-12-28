@@ -4,7 +4,6 @@ import service2 from "../assets/service-2.png";
 import service3 from "../assets/service-3.png";
 import service4 from "../assets/service-4.png";
 import service5 from "../assets/service-5.png";
-import ListGroup from "./ListGroup";
 
 const Service: React.FC = () => {
   return (

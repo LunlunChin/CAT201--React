@@ -1,4 +1,3 @@
-import ListGroup from "./components/ListGroup";
 import Header from "./components/Header";
 import About from "./components/About";
 import Video from "./components/Video";
