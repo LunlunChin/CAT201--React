@@ -9,7 +9,7 @@ const About: React.FC = () => {
       <div className="row">
         <div className="col-md-1"></div>
 
-        <div className="col-md-5">
+        <div className="col-md-5 mt-5">
           <h5 className="text-muted mb-4">About Us</h5>
           <h2 className="text-muted font-weight-bold  mb-4">
             Welcome to our company! We are a leading provider of innovative
