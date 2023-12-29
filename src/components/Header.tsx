@@ -11,18 +11,18 @@ const Header: React.FC = () => {
       </a>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto ">
-          <Nav.Link className="text-white" href="/ ">
-            Home
+        <Nav className="ml-auto">
+          <Nav.Link className="text-white mx-5 h" href="/ ">
+            <span className="h5">Home</span>
           </Nav.Link>
-          <Nav.Link className="text-white" href="about">
-            About
+          <Nav.Link className="text-white mx-5 h4" href="about">
+            <span className="h5">About</span>
           </Nav.Link>
-          <Nav.Link className="text-white" href="services">
-            Services
+          <Nav.Link className="text-white mx-5 h4" href="services">
+            <span className="h5"> Services</span>
           </Nav.Link>
-          <Nav.Link className="text-white" href="team">
-            Team
+          <Nav.Link className="text-white mx-5 h4" href="team">
+            <span className="h5">Team</span>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
