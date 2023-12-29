@@ -4,6 +4,7 @@ import Video from "./components/Video";
 import Service from "./components/Service";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
+import Mission from "./components/Mission";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function HomePage() {
@@ -13,6 +14,15 @@ function HomePage() {
       <Video />
       <Service />
       <Team />
+    </>
+  );
+}
+
+function AboutPage() {
+  return (
+    <>
+      <Mission />
+      <Video />
     </>
   );
 }
@@ -27,7 +37,7 @@ function App() {
         <br />
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
-          <Route path="/about" element={<Video />}></Route>
+          <Route path="/about" element={<AboutPage />}></Route>
           <Route path="/services" element={<Service />}></Route>
           <Route path="/team" element={<Team />}></Route>
         </Routes>

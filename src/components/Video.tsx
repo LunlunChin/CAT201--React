@@ -9,8 +9,10 @@ const Video: React.FC = () => {
       <Container>
         <Row className="justify-content-center text-center mb-4">
           <Col lg={8}>
-            <h2 className="mb-3">Introduction Video</h2>
-            <p className="lead mb-4">Watch this video to learn more about us</p>
+            <h2 className="mb-3">Who Are We?</h2>
+            <p className="lead mb-4">
+              Watch this video to learn more about GENAIX
+            </p>
           </Col>
         </Row>
         <Row className="justify-content-center">
