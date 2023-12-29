@@ -7,7 +7,10 @@ const Footer: React.FC = () => {
         <div className="row">
           <div className="col">
             <p>&copy; 2023 GenAIx. All rights reserved.</p>
-            <p>Designed and developed by Universiti Sains Malaysia - CAT201</p>
+            <p>
+              Designed and developed by Universiti Sains Malaysia - CAT201 -
+              Zhao Ran, Chin Zhie Lun, Yang Qu
+            </p>
           </div>
         </div>
       </div>
